@@ -1,0 +1,1030 @@
+
+#wrapper {
+        width: 100%;
+        margin-right:20px;
+        overflow: hidden;
+    }
+
+
+/*logo com*/
+.logo {
+  margin-left: 38%;
+  margin-top: 4%;
+
+}
+
+/*logo mobil*/
+.logomob {
+margin-left: 30%;
+margin-top: 4%;
+}
+
+.logotablet{
+  margin-left: 35%;
+  margin-top: 4%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ /*menubar com*/
+.topnav {
+  margin-left: 49%;
+  margin-bottom: 3%;
+}
+
+/*menubar udseende*/
+.topnav a {
+  color: black;
+  padding: 10px 1px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  width:100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/*style menubar*/
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  width: 2.5%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/*mobil menu*/
+.topnav1 {
+  margin-left: 48%;
+  margin-bottom: 3%;
+}
+
+/*menubar udseende*/
+.topnav1 a {
+  color: black;
+
+  text-decoration: none;
+
+  display: block;
+
+  overflow: hidden;
+
+
+}
+
+/*style menubar*/
+.topnav1 a:hover {
+  background-color: white;
+  color: black;
+
+  overflow: hidden;
+}
+
+
+
+
+/*mob menu udseende*/
+.img {
+  /* The image used */
+
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 190%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+/*udseende til menu punkter inde i mobmenu*/
+.a{
+  color:white;
+position: inherit;
+  right:80%;
+  margin:20px;
+top:70%;
+text-decoration: none;
+
+}
+/*mob menu udseende slut*/
+
+
+/* fra index.html */
+
+ul {
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+  justify-content: space-between;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+.contact {
+  width: 100%;
+  align-items: center;
+  position: absolute;
+}
+
+
+.background-image {
+  z-index: -1;
+  opacity: 50%;
+  -webkit-filter: whitescale(100%);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a6998a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.kontakt{
+  font-family: times;
+}
+
+
+/*koncept brødtekst*/
+.konceptmidte{
+  font-family: times;
+  font-size: 15px;
+}
+
+/*sælg dine ting overskrift*/
+.salgtekst{
+  font-size: 20px;
+  position: relative;
+  margin-top: 5em;
+  font-family: times;
+  color:#a6998a;
+}
+
+.row2 {
+  display: flex;
+  z-index: 1;
+}
+/*sælg dine ting brødtekst*/
+.salgmidt{
+  font-family: times;
+  font-size: 15px;
+  text-align: left;
+
+
+}
+.salgmidt2{
+  font-family: times;
+  font-size: 15px;
+  text-align: right;
+  border-bottom: 1px solid #a6998a;
+}
+
+.salgmidt21{
+  font-family: times;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+/*brand overskrift*/
+.brandtekst{
+  font-size: 20px;
+  position: relative;
+  margin-top: 2em;
+  margin-bottom: 30em;
+  font-family: times;
+}
+
+
+h1{
+  font-family: times;
+  color:black;
+  position: relative;
+  left:45%;
+}
+
+figcaption {
+  font-style: times;
+  margin-left: var(--whitespace);
+  margin-right: var(--whitespace);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+
+ul{
+  color:black;
+}
+
+
+#showmenu a {
+  height:3em;
+}
+
+ header ul a{
+   color:black;
+ }
+/*burgermenu udseende*/
+  nav a {
+    color: Black;
+    text-decoration: none;
+    font-family:times;
+    list-style-type: none;
+    font-size: 20px;
+    bottom: 30%;
+
+      position: relative;
+      left:-600px;
+  }
+
+/*udseende til menu punkter inde i mobmenu*/
+.a{
+  color:white;
+position: inherit;
+  right:80%;
+  margin:20px;
+top:70%;
+
+}
+
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img {
+  /* The image used */
+
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 190%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+}
+/*tre billeder udseende*/
+.container
+{
+  position: relative;
+  bottom: 0.3px;
+  top:-105px;
+  width: 1500px;
+  height: 200px auto;
+  margin: 200px auto;
+  left:120px;
+  z-index: -1;
+
+}
+.container .box
+{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #000;
+  float:left;
+  margin:35px;
+  left:4%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0px;
+  z-index: -1;
+}
+
+.box1 img {
+    width: 100%;
+    height: 120%;
+  z-index: -1;
+
+
+}
+
+.box2 img {
+    width: 100%;
+    height: 120%;
+  z-index: -1;
+
+}
+
+.box3 img {
+    width: 100%;
+    height: 120%;
+  z-index: -1;
+  }
+
+
+  .container1 {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    top: 160px;
+    z-index: -1;
+  }
+
+  .container1 img {
+    width: 500%;
+    height: auto;
+    z-index: -1;
+  }
+
+
+  .container2 {
+    position: relative;
+    width: 500%;
+    max-width: 400px;
+      top: 160px;
+  }
+
+  .container2 img {
+    width: 100%;
+    height: auto;
+      z-index: -1;
+  }
+
+  .container3 {
+    position: relative;
+    width: 500%;
+    max-width: 400px;
+      top: 160px;
+  }
+
+  .container3 img {
+    width: 50%;
+    height: auto;
+  }
+
+.flex-container > div {
+  background-color: black;
+  margin: 10px;
+  padding: 8px;
+  font-size: 30px;
+  font-family: 'Bodoni Moda', serif;
+  text-decoration: none
+  padding-top: 300px;
+  position: relative;
+  letter-spacing: 0px;
+
+}
+
+  body {
+    font-family: times;
+  }
+
+  /* galleri styling */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    .header {
+      text-align: center;
+      padding: -15px;
+      top:-30px;
+    }
+
+    .h1 p {
+      text-align: center;
+    }
+
+    .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0 4px;
+
+
+    }
+
+    /*laver fire kolloner ved siden af hinanden*/
+    .column {
+      -ms-flex: 25%;
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+
+    }
+
+    .column img {
+      margin-top: 3px;
+      vertical-align: middle;
+      width: 40%;
+
+    }
+
+    .row1 {
+      display: flex;
+      z-index: 1;
+    }
+
+/*kontakttekst*/
+    .column1 {
+      flex: 3%;
+      padding: 4px;
+      text-align: center;
+      font-size:12px;
+      font-family: times;
+      z-index: 1;
+    }
+
+    .column12 {
+      flex: 3%;
+      padding: 4px;
+      text-align: center;
+      font-size:12px;
+      font-family: times;
+      z-index: 1;
+    }
+
+
+.column2{
+  margin:;
+  margin-left:1em;
+  margin-right: 2em;
+  flex:33,33%;
+}
+
+    .flex-container {
+      display: flex;
+      background-color: #white;
+    }
+
+    .flex-container > div {
+      background-color: #a6998a;
+      margin: 150px;
+      padding: 1px;
+      font-size: 13px;
+    }
+
+
+.brand{
+  filter: blur(20px);
+  -webkit-filter: blur(20px);
+}
+
+
+.kontakt3{
+  margin-left: auto;
+  margin-right: auto;
+  align-items:Center;
+  width:140%;
+  right:15%;
+  position: relative;
+}
+.kontakt4{
+  align-items:Center;
+  position: relative;
+}
+
+
+{
+  margin-top: 8em;
+}
+
+.baggrund{
+   display:block;
+   z-index: -2;
+   position: absolute;
+   margin-top: 3.5em;
+  }
+
+ .baggrund1{
+  display:none;
+  z-index: -2;
+  position: absolute;
+   margin-top: 8.5em;
+ }
+
+
+
+
+
+
+ /* Navigation and footer */
+ footer {
+   padding: 35px 0;
+   text-align: center;
+   margin-bottom: 20px;
+  text-decoration: none;
+ }
+
+
+/* footer med knapper - start*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    margin-top:3em;
+    width: 100%;
+    background-color: rgba(191, 185, 163, 0.2);
+    z-index:1;
+  }
+
+.btn{
+  margin: 30px;
+  cursor: pointer;
+  background-color: #a6998a;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: none;
+  }
+
+a{
+  font-family: times;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+}
+/* footer med knapper - slut*/
+
+        /* Responsive layout, gør at den laver to kolloner hvis du mindsker siden */
+        @media screen and (max-width: 800px) {
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+
+        /* Responsive layout - Mobilenhed*/
+        @media screen and (max-width: 600px) {
+        .logo{
+          display: none
+        }
+
+        .logomob{
+          display:block;
+        }
+
+        .logotablet{
+          display: none;
+        }
+
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+            }
+
+            .topnav{
+              display: none;
+            }
+
+            .topnav1{
+              display: block;
+            }
+
+            .baggrund{
+              display: none;
+            }
+
+            .baggrund1{
+              display: block;
+              width: 100%;
+               max-width: 380px;
+                height: auto;
+                align-items: center;
+
+            }
+
+
+            .kontakt{
+              display: none;
+                }
+
+                .kontakt1{
+                  display: block;
+                  font-size: 10px;
+  right:70px;
+                  text-align: center;
+                  font-family: times;
+
+                    }
+
+
+                .kontakt2{
+                  display: none;
+                    }
+
+                    .kontakt3{
+                      display: none;
+                        }
+
+                        .salgtekst{
+                          display: none;
+                        }
+
+                        .kontakt4{
+                          display: block;
+                          position:relative;
+                          size:20em;
+                          width: 100%;
+                          margin-top: 10%;
+
+                            }
+
+
+
+                            .box1{
+                              display: none;
+                            }
+                            .box2{
+                              display: none;
+                            }
+                            .box3{
+                              display:none;
+                            }
+
+                            .salgmidt{
+                              display: none;
+                            }
+
+                            .salgmidt2{
+                              display: block;
+                              margin-left: 10%;
+                              margin-right: 10%;
+                              font-size: 10px;
+                            }
+
+                            .konceptmidte{
+                              margin-left: 10%;
+                              margin-right: 10%;
+                              font-size: 10px;
+                            }
+
+                            .column12{
+                              display: none;
+                            }
+
+                            .salgmidt21{
+                              display: block;
+                              font-size: 10px;
+                              position: relative;
+                              right: -5px;
+                            }
+
+
+
+
+                            .img {
+                              /* The image used */
+
+                              /* Add the blur effect */
+                              filter: blur(3px);
+                              -webkit-filter: blur(3px);
+
+                              /* Full height */
+                              height: 100%;
+                              width: 100%;
+
+                              /* Center and scale the image nicely */
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              background-size: cover;
+                            }
+
+
+                            .a{
+                              color:white;
+                            position: inherit;
+                              right:50%;
+                              margin:-20px;
+                              margin-right:18px;
+                            top:90%;
+
+                            }
+
+                            .column9{
+                              display: none;
+                            }
+
+                            .column1{
+                              font-size: 8px;
+                            }
+
+                            footer{
+                              display: none;
+                            }
+
+          }
+/* Responsive layout lodret - tablet*/
+          @media only screen and (min-width: 600px){
+            .logotablet{
+              display: block;
+            }
+
+            .logo{
+              display: none
+            }
+
+            .logomob{
+              display:none;
+            }
+
+            .topnav{
+              display: none;
+            }
+
+            .topnav1{
+              display: black;
+            }
+
+            .column9{
+              display: none;
+            }
+            .column {
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+            .baggrund{
+              display: block;
+            }
+
+            .baggrund1{
+              display: none;
+            }
+
+            .box1{
+            display: none;
+              }
+            .box2{
+            display: none;
+              }
+            .box3{
+            display: none;
+            }
+            .kontakt4{
+              display: none;
+            }
+
+            footer{
+              display: block;
+            }
+
+          }
+
+
+
+
+
+          /* Responsive layout - storskærm*/
+          @media screen and (min-width: 1200px) {
+            .column {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+
+              }
+
+              .logomob{
+                display: none
+              }
+
+              .logo{
+                display:block;
+              }
+
+              .logotablet{
+                display:none;
+              }
+              .topnav1{
+                display: none;
+              }
+
+              .topnav{
+                display: block;
+
+              }
+
+              .column9{
+                display: block;
+              }
+
+              .kontakt1{
+                display: block;
+                font-size: 30px;
+                color: #a6998a;
+                right:19.5%;
+                text-align: center;
+                font-family: times;
+                border-bottom: 1px solid #a6998a;
+                margin-top: 0.5%;
+                  }
+
+                  .kontakt2{
+                    display: block;
+                    font-size: 30px;
+                    color: #a6998a;
+                    right:19.5%;
+                    text-align: center;
+                    font-family: times;
+                    border-bottom: 1px solid #a6998a;
+                    margin-top: 0.5%;
+                      }
+
+                      .column1{
+                        font-size: 15px;
+                      }
+
+              .baggrund{
+                display: block;
+                width: 100%;
+              }
+
+              .baggrund1{
+                display: none;
+              }
+
+              .box1{
+                display: none;
+
+              }
+              .box2{
+                display: none;
+
+              }
+              .box3{
+                display:none;
+
+              }
+
+              .konceptmidte{
+                margin-top: 3%;
+              }
+
+              .salgmidt{
+                display: block;
+              }
+
+              .salgmidt2{
+                display: none;
+
+              }
+              .salgmidt21{
+                display: none;
+
+              }
+
+              .kontakt4{
+                display:none;
+                  }
+
+                  footer{
+                    display: block;
+                  }
+
+/*galleri styling*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: -15px;
+  top:-30px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/*laver fire kolloner ved siden af hinanden*/
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column9{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column9 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Responsive layout, gør at den laver to kolloner hvis du mindsker siden */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - putter to kolloner ovenpå hinanden */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
